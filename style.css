@@ -1,0 +1,64 @@
+body {
+	background-color:grey;
+}
+#div5 {
+	width:400px;
+	height:400px;
+	border:2px solid black;
+	background-image:url(./icone-tristesse.jpg);
+	z-index:-1;
+	position:absolute;
+	top:10px; left:10px;
+	visibility: hidden
+}
+#div1{
+	width:200px;
+	height:200px;
+	border-left:2px solid black;
+	border-top:2px solid black;
+	z-index:1;
+	margin: 10px 0 0 2px;
+	background-color:#f2d1ff;
+	visibility:hidden
+}
+
+#div2{
+	width:200px;
+	height:200px;
+	border-right:2px solid black;
+	border-top:2px solid black;
+	z-index:1;
+	margin: 0px 0 0 3px;
+	background-color:#dd9bff;
+	position:relative;
+	top:-202px;
+	left:201px;
+	visibility:hidden
+}
+
+#div3{
+	width:200px;
+	height:200px;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	z-index:1;
+	margin: 0px 0 0 2px;
+	background-color:#c170ff;
+	position:relative;
+	top:-202px;
+	visibility:hidden
+}
+
+#div4{
+	width:200px;
+	height:200px;
+	border-right:2px solid black;
+	border-bottom:2px solid black;
+	z-index:1;
+	margin: 0px 0 0 2px;
+	background-color:#910cff;
+	position:relative;
+	top:-404px;
+	left:202px;
+	visibility:hidden
+}
